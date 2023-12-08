@@ -4,7 +4,7 @@ import mlflow
 import mlflow.keras
 from urllib.parse import urlparse
 from src.cnnClassifier.entity.config_entity import EvaluationConfig
-from src.cnnClassifier.utils.common import read_yaml, create_directories,save_json
+from src.cnnClassifier.utils.common import read_yaml, create_directories, save_json
 
 
 class Evaluation:
@@ -26,20 +26,20 @@ class Evaluation:
         )
 
         valid_datagenerator = tf.keras.preprocessing.image.ImageDataGenerator(
-            **datagenerator_kwargs
+            **datagenerator_kwargs # type: ignore
         )
 
         self.valid_generator = valid_datagenerator.flow_from_directory(
             directory=self.config.training_data,
             subset="validation",
             shuffle=False,
-            **dataflow_kwargs
+            **dataflow_kwargs # type: ignore
         )
 
 
     @staticmethod
     def load_model(path: Path) -> tf.keras.Model:
-        return tf.keras.models.load_model(path)
+        return tf.keras.models.load_model(path) # type: ignore
     
 
     def evaluation(self):
