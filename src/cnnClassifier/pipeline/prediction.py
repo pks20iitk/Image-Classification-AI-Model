@@ -3,7 +3,7 @@ from tensorflow import keras
 from keras.models import load_model
 from keras.api.keras.preprocessing import image
 # from tensorflow.python.keras.models import load_model
-# from tensorflow.python.keras.appreprocessing import image
+# from tensorflow.python.keras.preprocessing import image
 import os
 
 
