@@ -21,7 +21,7 @@ list_of_files = [
     "config/config.yaml",
     "dvc.yaml",
     "params.yaml",
-    "requirements1.txt",
+    "requirements_new.txt",
     "setup.py",
     "research/trials.ipynb",
     "templates/index.html"
