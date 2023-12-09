@@ -3,6 +3,7 @@ pandas
 gdown
 dvc
 psycopg2
+pywin32==306
 mlflow==2.2.2
 notebook
 numpy
