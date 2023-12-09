@@ -6,6 +6,11 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.dvc/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/artifacts/data_ingestion" />
+      <excludeFolder url="file://$MODULE_DIR$/artifacts/prepare_base_model" />
+      <excludeFolder url="file://$MODULE_DIR$/artifacts/training" />
+      <excludeFolder url="file://$MODULE_DIR$/src/cnnClassifier.egg-info" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="env" jdkType="Python SDK" />
