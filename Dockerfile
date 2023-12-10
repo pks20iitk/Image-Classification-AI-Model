@@ -19,8 +19,14 @@ RUN apt-get update -y && \
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 ENV PATH $PATH:/root/.cargo/bin
 
-# Set the path to pg_config
+# Set the path to pg_config (replace with your actual path)
 ENV PATH /path/to/pg_config:$PATH
+
+# Set environment variables for PostgreSQL connection
+ENV PG_HOST=localhost
+ENV PG_DATABASE=model-database
+ENV PG_USER=postgres
+ENV PG_PASSWORD=postgres
 
 # Set the working directory to /app
 WORKDIR /app
