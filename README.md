@@ -163,9 +163,10 @@ End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
 # Instruction to run project in local 
 1. clone the github repo main branch
 2. either create virtaul or conda enviroment
-3. use python = 3.8
-4. pip install -r requirements.txt
-5. run main.py-- python main.py
-6. run app.py--- python app.py
+3. Set up postgres with above mentioned credentials
+4. use python = 3.8
+5. pip install -r requirements.txt
+6. run main.py-- python main.py
+7. run app.py--- python app.py
 
 As I uploade data for trainning in google drive and also provide some data for testing in local
