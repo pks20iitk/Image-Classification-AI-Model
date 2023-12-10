@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
 
 
@@ -106,7 +106,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI:930809906733.dkr.ecr.us-east-1.amazonaws.com/prince29repo
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -148,4 +148,21 @@ DVC
 
 =======
 End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
->>>>>>> 44d6198c8c1e01e4f29de1fb41cdad808eaed440
+
+# Set up Postgres-acess
+
+1 create a new data-base name model-database
+2. set user name = postgres
+3. password = postgres
+4. host = localhost
+5. port = 5432
+
+# Instruction to run project in local 
+1. clone the github repo main branch
+2. either create virtaul or conda enviroment
+3. use python = 3.8
+4. pip install -r requirements.txt
+5. run main.py-- python main.py
+6. run app.py--- python app.py
+
+As I uploade data for trainning in google drive and also provide some data for testing in local
