@@ -1,5 +1,5 @@
 
-# End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
+# End-to-End-Implementation-of-Simple-AI-Model-For-Image-Classification
 
 ## Dataset link
 https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images
