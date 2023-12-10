@@ -149,10 +149,8 @@ DVC
 
     ECR_REPOSITORY_NAME = simple-app
 
-=======
-End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
 
-# Set up Postgres-acess
+# Set up Postgres-access
 
 1 create a new data-base name model-database
 2. set user name = postgres
@@ -169,4 +167,8 @@ End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
 6. run main.py-- python main.py
 7. run app.py--- python app.py
 
-As I uploade data for trainning in google drive and also provide some data for testing in local
+As I uploade data for model-trainning on google drive and also provide some data for testing in local
+
+=======
+End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
+
